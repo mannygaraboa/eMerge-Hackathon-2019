@@ -61,3 +61,25 @@ function main() {
 
     const items = readLine().replace(/\s+$/g, '').split(' ').map(itemsTemp => parseInt(itemsTemp, 10));
 }
+
+/*
+// Solution:
+
+var digits = "1 2 3 4"
+function main() {
+  var digitArray = digits.split(" ");
+  var sum = 1;
+  var newArray = [];
+  for(var i = 0; i < digitArray.length; i++)
+  {
+    digitArray[i] = +digitArray[i];
+    sum = sum * digitArray[i];
+    var newValue = sum / digitArray[i];
+    newArray.push(newValue);
+  }
+
+  console.log(digitArray);
+  return newArray;
+}
+main(digits);
+*/

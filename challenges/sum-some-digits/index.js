@@ -53,7 +53,7 @@ function main() {
 }
 
 /*
-Solution:
+// Solution:
 
 var digits = "4 27 2019"
 function main() {
@@ -66,7 +66,7 @@ function main() {
   }
 
   console.log(digitString);
-  return "Sum of digits is " + sum;
+  return sum;
 }
 main(digits);
 */
